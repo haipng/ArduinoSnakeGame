@@ -1,4 +1,4 @@
-# arduinoSnakeGame
+# ArduinoSnakeGame
 A snake game on Arduino with LED matrix 8x8
 
 Full project page
