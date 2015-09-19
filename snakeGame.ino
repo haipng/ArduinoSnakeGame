@@ -256,7 +256,7 @@ void screenDisplay() {
     // Open up the latch ready to receive data
     digitalWrite(latchPin, LOW);
     
-    shiftData(~row); // if use PNP transitor
+    shiftData(~row); // if use PNP transitors
     // shiftData(row);
     shiftData(~led[k]);
     // Close the latch, sending the data in the registers out to the matrix
