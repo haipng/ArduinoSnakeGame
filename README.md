@@ -1,7 +1,7 @@
 # ArduinoSnakeGame
 A snake game on Arduino with LED matrix 8x8
 
-## Full project page
+## Project page
 http://haicuibap.ga/2013/12/how-to-madesnake-game-tren-arduino/
 
 ## Components list
@@ -14,7 +14,3 @@ Arduino Uno<br />
 8 x 1k resistors<br />
 8 x 10k resistors<br />
 And a lot of wires<br />
-
-## List of files
-SnakeGame.ino - Arduino sketch file<br />
-SnakeGame.sch - EAGLE schematic
