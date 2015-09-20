@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -57,6 +57,22 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>&lt;h1&gt;ArduinoSnakeGame&lt;/h1&gt;
+&lt;p&gt;A snake game on Arduino with 8x8 LED matrix&lt;/p&gt;
+&lt;p&gt;Author: Haipham&lt;/p&gt;
+&lt;p&gt;Date created: 19/09/2015&lt;/p&gt;
+&lt;br /&gt;
+&lt;b&gt;Components list&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno&lt;/li&gt;
+&lt;li&gt;1 x 8×8 LED matrix&lt;/li&gt;
+&lt;li&gt;2 x 74HC595 shift registers&lt;/li&gt;
+&lt;li&gt;8 x B562 PNP transistors (PNP loại khác cũng được)&lt;/li&gt;
+&lt;li&gt;4 x pushbuttons&lt;/li&gt;
+&lt;li&gt;8 x 330 resistors&lt;/li&gt;
+&lt;li&gt;8 x 1k resistors&lt;/li&gt;
+&lt;li&gt;8 x 10k resistors&lt;/li&gt;
+&lt;/ul&gt;</description>
 <libraries>
 <library name="Texas Instruments_By_element14_Batch_1">
 <description>Developed by element14 :&lt;br&gt;
