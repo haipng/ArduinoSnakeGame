@@ -1,9 +1,6 @@
 # ArduinoSnakeGame
 A snake game on Arduino with LED matrix 8x8
 
-## Project page
-http://haicuibap.ga/2013/12/how-to-madesnake-game-tren-arduino/
-
 ## Components list
 Arduino Uno<br />
 1 x 8x8 LED matrix<br />
